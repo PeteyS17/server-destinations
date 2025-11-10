@@ -119,7 +119,7 @@ const storage = multer.diskStorage({
         res.json(item);
       });
       
-      const PORT = process.env.PORT || 3001;
-      app.listen(PORT, () => {
-        console.log(`Server running on port ${PORT}`);
+      
+      app.listen(3001, () => {
+        console.log("Server is up and running");
       });
